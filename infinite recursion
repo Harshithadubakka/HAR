@@ -1,0 +1,15 @@
+#include <stdio.h>
+void m1()
+{
+    
+    printf("good morning\n");
+   
+    m1();
+    
+    
+}
+int main()
+{
+   
+m1();
+}
