@@ -1,0 +1,18 @@
+include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int r,n,count,temp;
+    scanf("%d",&n);
+    count=0;
+    temp=n;
+    while(n!=0){
+        n=n/10;
+        count++;
+    }
+    r=temp%count;
+    printf("%d",r);
+    return 0;
+}
